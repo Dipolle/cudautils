@@ -1,3 +1,4 @@
-apt-get install module-assistant nvidia-kernel-common
+apt-get install module-assistant nvidia-kernel-common xserver-xorg-core
 apt-get install nvidia-glx${VERSION}
-nano /etc/X11/xorg.conf
+cd /etc/X11/
+Xorg -configure
