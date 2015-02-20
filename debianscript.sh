@@ -1,6 +1,6 @@
-  aptitude purge xserver-xorg-video-nouveau
+  aptitude remove  --purge xserver-xorg-video-nouveau
   apt-get install freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev
-  wget http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.14_linux_64.run
-  chmod +x cuda_6.5.14_linux_64.run
-  ./cuda_6.5.14_linux_64.run
+  echo "deb http://http.debian.net/debian wheezy-backports main">/etc/apt/sources.list.d/sources.list
+  apt-get update
+  aptitude -t wheezy-backports install "xserver-xorg-video-intel"
   
