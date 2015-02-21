@@ -1,4 +1,4 @@
 cudautils
 =========
 
-aux scripts for cuda setup and monitoring in linux in linux 
+aux scripts for cuda setup and monitoring in linux 
