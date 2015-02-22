@@ -1,4 +1,3 @@
 apt-get remove --purge xserver-xorg-video-intel
-wget http://ftp.us.debian.org/debian/pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel_2.99.917-1~exp1_amd64.deb
+wget https://download.01.org/gfx/ubuntu/14.04/main/pool/main/i/intel-linux-graphics-installer/intel-linux-graphics-installer_1.0.7-0intel1_amd64.deb
 dpkg -i *.deb
-
