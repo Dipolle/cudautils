@@ -1,5 +1,0 @@
-# KMS
-intel_agp
-drm
-i915 modeset=1
-/etc/initramfs-tools/modules 
